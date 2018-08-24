@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{E0F3EA61-B8FA-45AF-9F45-113458ABDE50}|Default">
+  <MonoDevelop.Ide.ItemProperties.dsv6-stats PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dsv6-stats/Program.cs">
+    <Files>
+      <File FileName="dsv6-stats/Program.cs" Line="8" Column="10" />
+      <File FileName="dsv6-stats/Abschnitt.cs" Line="9" Column="39" />
+      <File FileName="dsv6-stats/Wettkampf.cs" Line="10" Column="27" />
+      <File FileName="dsv6-stats/Wertung.cs" Line="1" Column="1" />
+      <File FileName="dsv6-stats/Veranstaltung.cs" Line="53" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Malte Skambath" Email="" Copyright="" Company="" Trademark="" />
+  <MultiItemStartupConfigurations />
+</Properties>

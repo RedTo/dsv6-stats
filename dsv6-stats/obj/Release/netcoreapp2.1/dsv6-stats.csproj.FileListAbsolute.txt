@@ -1,0 +1,10 @@
+/Users/malte/Projects/dsv6-stats/dsv6-stats/bin/Release/netcoreapp2.1/dsv6-stats.deps.json
+/Users/malte/Projects/dsv6-stats/dsv6-stats/bin/Release/netcoreapp2.1/dsv6-stats.runtimeconfig.json
+/Users/malte/Projects/dsv6-stats/dsv6-stats/bin/Release/netcoreapp2.1/dsv6-stats.runtimeconfig.dev.json
+/Users/malte/Projects/dsv6-stats/dsv6-stats/bin/Release/netcoreapp2.1/dsv6-stats.dll
+/Users/malte/Projects/dsv6-stats/dsv6-stats/bin/Release/netcoreapp2.1/dsv6-stats.pdb
+/Users/malte/Projects/dsv6-stats/dsv6-stats/obj/Release/netcoreapp2.1/dsv6-stats.csproj.CoreCompileInputs.cache
+/Users/malte/Projects/dsv6-stats/dsv6-stats/obj/Release/netcoreapp2.1/dsv6-stats.AssemblyInfoInputs.cache
+/Users/malte/Projects/dsv6-stats/dsv6-stats/obj/Release/netcoreapp2.1/dsv6-stats.AssemblyInfo.cs
+/Users/malte/Projects/dsv6-stats/dsv6-stats/obj/Release/netcoreapp2.1/dsv6-stats.dll
+/Users/malte/Projects/dsv6-stats/dsv6-stats/obj/Release/netcoreapp2.1/dsv6-stats.pdb
