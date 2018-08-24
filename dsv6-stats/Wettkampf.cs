@@ -8,13 +8,15 @@ namespace dsv6_stats
         public string WkNr;
         public string WkKey;
         public string sex;
+        public string typ;
         public Dictionary<string, string> pz;
-        public Wettkampf(string nr, string key, string sex)
+        public Wettkampf(string nr, string key, string sex,string typ)
         {
             this.pz = new Dictionary<string, string>();
             this.sex = sex;
             this.WkNr = nr;
             this.WkKey = key;
+            this.typ = typ;
         }
 
         public List<string> GetPZKeys()

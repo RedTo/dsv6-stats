@@ -30,37 +30,49 @@ namespace dsv6_stats
         }
 
         public void AddWettkampf(int absnr, Wettkampf wk){
-            AbschnittMap.GetValueOrDefault(absnr).WKList.Add(wk);
+            Abschnitt abs;
+            AbschnittMap.TryGetValue(absnr, out abs);
+            abs.WKList.Add(wk);
+
         }
 
         public void printOverview(string file){
             var f = new System.IO.StreamWriter(file,false,System.Text.Encoding.UTF8);
             var keys = GetPZKeys();
             keys.Sort();
-            f.Write(";;");
+            keys.Reverse();
+
+            f.Write(",,,,");
+            int nkeys = 0;
             foreach (string key in keys)
             {
-                f.Write(key + ";");
+                f.Write("\"" + key + "\"" + ",");
+                nkeys++;
             }
-            f.WriteLine(";;");
+            f.WriteLine(",,");
+
             foreach(Abschnitt abs in Abschnitte){
-                f.WriteLine("Abschnitt;{0};;", abs.number);
+                f.WriteLine("\"Abschnitt\",\"{0}\",\"{1}\",{2}", abs.number,abs.date.ToShortDateString(),"".PadRight(nkeys+3,','));
                 foreach(Wettkampf wk in abs.WKList){
-                    f.Write("{0};{1};",wk.WkNr,wk.WkKey);
+
+                    f.Write("\"{0}\",\"{1}\",\"{2}\",\"{3}\",",wk.WkNr,wk.WkKey,wk.sex,wk.typ);
                     foreach(string key in keys){
                         if(wk.pz.ContainsKey(key)){
-                            var time = wk.pz.GetValueOrDefault(key);
+                            string time;
+                             wk.pz.TryGetValue(key,out time);
                             if (time.StartsWith("00:") && time.Length == 11)
                                 time = time.Remove(0, 3);
-                            f.Write(time+";");
+                            f.Write("\"" + time + "\",");
                         } else {
-                            f.Write("--:--,--;");
+                            f.Write("\"-\",");
                         }
                     }
-                    f.WriteLine(";;");
+                    f.WriteLine(",,");
+
                 }
-                f.WriteLine(";;");
+                f.WriteLine("".PadRight(nkeys + 4+2, ','));
             }
+            f.Close();
         }
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\bin\Release\dsv6_stats.exe.config
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\bin\Release\dsv6_stats.exe
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\bin\Release\dsv6_stats.pdb
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\obj\Release\dsv6_stats.Properties.Resources.resources
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\obj\Release\dsv6-stats.csproj.GenerateResource.Cache
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\obj\Release\dsv6_stats.exe
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\obj\Release\dsv6_stats.pdb
+C:\Users\malte\Projekte\dsv6-stats\dsv6-stats_win\obj\Release\dsv6-stats.csprojResolveAssemblyReference.cache
